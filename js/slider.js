@@ -2,15 +2,13 @@ jQuery(document).ready(function($) {
     "use strict";
     $('#customers-testimonials').owlCarousel( {
             loop: true,
-            center: true,
+            center: false,
             items: 1,
             margin: 30,
             autoplay: true,
-            dots:true,
-            nav:true,
-            autoplayTimeout: 5000,
+            dots: false,
+            autoplayTimeout: 3000,
             smartSpeed: 450,
-            navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
             responsive: {
                 0: {
                     items: 1
