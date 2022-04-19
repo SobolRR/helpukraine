@@ -110,3 +110,7 @@
   border-style: solid;
   border-color:rgb(249, 209, 47);
 }
+
+.body-content .home .home-wrap .content-wrap{
+  z-index: 100;
+}
