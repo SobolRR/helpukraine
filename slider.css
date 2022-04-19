@@ -79,3 +79,34 @@
   height: 450px;
   z-index: 1;
 }
+
+#modal-dialog{
+  max-width: 1202px;
+
+}
+#modal-content{
+  background-color: white;
+  backdrop-filter: blur(10px);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+}
+#close{
+  -webkit-border-top-right-radius: 25px;
+  -moz-border-radius-topright: 25px;
+  border-top-right-radius: 25px;
+}
+#modal-header{
+  border-bottom: 0;
+}
+#modal-img{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color:rgb(249, 209, 47);
+}

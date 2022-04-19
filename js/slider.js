@@ -5,9 +5,9 @@ jQuery(document).ready(function($) {
             center: false,
             items: 1,
             margin: 30,
-            autoplay: false,
+            autoplay: true,
             dots: false,
-            autoplayTimeout: 5000,
+            autoplayTimeout: 6000,
             smartSpeed: 450,
             responsive: {
                 0: {
