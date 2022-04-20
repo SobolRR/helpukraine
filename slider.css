@@ -114,3 +114,7 @@
 .body-content .home .home-wrap .content-wrap{
   z-index: 1;
 }
+.owl-carousel 
+{
+    touch-action: manipulation; 
+}
